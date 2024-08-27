@@ -17,6 +17,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 class OrderServiceApplicationTests {
     @ServiceConnection
     static MySQLContainer mySQLContainer = new MySQLContainer("mysql:8.3.0");
+
     @LocalServerPort
     private Integer port;
 
